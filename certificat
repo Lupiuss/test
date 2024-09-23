@@ -1,95 +1,102 @@
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-fr" lang="fr-fr">
 <head>
-<head>
     <meta charset="UTF-8">
-    <title>Ma page web</title>
-</head>
+    <title>Certificat Administratif</title>
 
-	<!--[if IE]>
-	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<![endif]-->
-	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
-	<meta http-equiv="pragma" content="no-cache" />
-	<meta http-equiv="expires" content="-1" />
-	<meta name="robots" content="noindex,nofollow" />
-	<meta name="description" content="Saphir" />
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Compatibilité IE -->
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <![endif]-->
+    
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="-1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="description" content="Saphir" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-	<title>Certificat Administratif</title>
+    <!-- Scripts -->
+    <script type="text/javascript" src="//static.univ-paris13.fr/js/jquery.min.js"></script>
+    <script type="text/javascript" src="//static.univ-paris13.fr/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="//static.univ-paris13.fr/js/materialize.min.js"></script>
 
-	<!--  Scripts-->
-	<script type="text/javascript" src="//static.univ-paris13.fr/js/jquery.min.js"></script>
-	<script type="text/javascript" src="//static.univ-paris13.fr/js/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="//static.univ-paris13.fr/js/materialize.min.js"></script>
-
-	<!-- CSS  -->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-	<link href="//static.univ-paris13.fr/css/fonts.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-	<link href="//static.univ-paris13.fr/css/materialize.min.css" type="text/css" rel="stylesheet"/>
-	<link href="//static.univ-paris13.fr/css/materialize.addon.css" type="text/css" rel="stylesheet"/>
-	<link href="https://certificatadministratif.univ-paris13.fr/includes/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="//static.univ-paris13.fr/css/fonts.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="//static.univ-paris13.fr/css/materialize.min.css" type="text/css" rel="stylesheet"/>
+    <link href="//static.univ-paris13.fr/css/materialize.addon.css" type="text/css" rel="stylesheet"/>
+    <link href="https://certificatadministratif.univ-paris13.fr/includes/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body id="PageAllContent">
-<div class="container">
-	<div class="section">
-		<div class="row">
-			<div class="col s12">
-				<img src="includes/img/logo_uspn.jpg" width="150">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col s12 center">
-				<font style="font-size: 18px; font-weight: bold;">CERTIFICAT ADMINISTRATIF</font>
-			</div>
-		</div>
-		<div class="separation40px"></div>
-		<div class="row">
-			<div class="col s12">
-				Le Président de l'université Sorbonne Paris Nord certifie que
-			</div>
-		</div>
-		<div class="separation20px"></div>
-		<div class="row">
-			<div class="col s12">
-				<font style="font-size: 15px; font-weight: bold;"><b>HAIGNERE</b> TOM</font>
-			</div>
-		</div>
-		<div class="separation20px"></div>
-		<div class="row">
-			<div class="col s12">
-				<u>Id. National</u> : 090990014GA			</div>
-		</div>
-		<div class="row">
-			<div class="col s12">
-				<u>N° Etudiant</u> : 12112816			</div>
-		</div>
-		<div class="separation20px"></div>
-		<div class="row">
-			<div class="col s12">
-				Né le 23 juillet 2002			</div>
-		</div>
-		<div class="row">
-			<div class="col s12">
-				à SAINT-MARTIN-BOULOGNE (062)			</div>
-		</div>
-		<div class="separation30px"></div>
-		<div class="row">
-			<div class="col s12">
-				est régulièrement inscrit pour l'année universitaire 2024/2025			</div>
-		</div>
-		<div class="separation30px"></div>
-		<div class="row">
-			<div class="col s12">
-				<u>Diplôme</u> : Deug Économie et Gestion pa. Double Licence Droit			</div>
-		</div>
-		<div class="row">
-			<div class="col s12">
-				<u>Année</u> : Licence Économie et Gestion pa. Double Licence Droit an3			</div>
-		</div>
-		<div class="row">
-			<div class="col s12">
-				<u>Composante</u> : UFR SCIENCES ECONOMIQUES ET GESTION			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12">
+                    <img src="includes/img/logo_uspn.jpg" width="150">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 center">
+                    <font style="font-size: 18px; font-weight: bold;">CERTIFICAT ADMINISTRATIF</font>
+                </div>
+            </div>
+            <div class="separation40px"></div>
+            <div class="row">
+                <div class="col s12">
+                    Le Président de l'université Sorbonne Paris Nord certifie que
+                </div>
+            </div>
+            <div class="separation20px"></div>
+            <div class="row">
+                <div class="col s12">
+                    <font style="font-size: 15px; font-weight: bold;"><b>HAIGNERE</b> TOM</font>
+                </div>
+            </div>
+            <div class="separation20px"></div>
+            <div class="row">
+                <div class="col s12">
+                    <u>Id. National</u> : 090990014GA
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <u>N° Etudiant</u> : 12112816
+                </div>
+            </div>
+            <div class="separation20px"></div>
+            <div class="row">
+                <div class="col s12">
+                    Né le 23 juillet 2002
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    à SAINT-MARTIN-BOULOGNE (062)
+                </div>
+            </div>
+            <div class="separation30px"></div>
+            <div class="row">
+                <div class="col s12">
+                    est régulièrement inscrit pour l'année universitaire 2024/2025
+                </div>
+            </div>
+            <div class="separation30px"></div>
+            <div class="row">
+                <div class="col s12">
+                    <u>Diplôme</u> : Deug Économie et Gestion pa. Double Licence Droit
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <u>Année</u> : Licence Économie et Gestion pa. Double Licence Droit an3
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <u>Composante</u> : UFR SCIENCES ECONOMIQUES ET GESTION
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
